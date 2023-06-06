@@ -1,6 +1,6 @@
 # This is My Portfolio site.
 
-# USP's: 
+# Unique Specs: 
 * This is a fully responsive website.
 * Multipage project which contains total of Four pages and every page is deisgned with mulltiple wrapper style.
 * Every wrapper is dedicated for specific topic/section.
