@@ -6,9 +6,9 @@
 * Every wrapper is dedicated for specific topic/section.
 * CSS3, HTML5, JavaScript and SCSS used for building this website.
 * Contact-form is a fully responsive and safe for visitor to contact me.
-* A success page which will show after every success of user submit in contact-form.
+* A success page which will show after every successful contact-form submission.
 * Redirect to HOME page option(botton) in success page.
-* Every user input will be forwarded to given Email address by the help of Online Server.
+* Every user's input will be forwarded to my Email address by the help of Online Server.
 * All social media links are responsive and safe.
 * Many proejcts will redirect to Github for project reference.
 * Cool Animations.
