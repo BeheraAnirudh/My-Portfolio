@@ -4,7 +4,7 @@
 * This is a fully responsive website.
 * Multipage project which contains total of Four pages and every page is deisgned with mulltiple wrapper style.
 * Every wrapper is dedicated for specific topic/section.
-* CSS3, HTML5, JavaScript is used for building this website.
+* CSS3, HTML5, JavaScript and SCSS used for building this website.
 * Contact-form is a fully responsive and safe for visitor to contact me.
 * A success page which will show after every success of user submit in contact-form.
 * Redirect to HOME page option(botton) in success page.
