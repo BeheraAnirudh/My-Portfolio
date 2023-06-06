@@ -18,4 +18,4 @@
 
 * V in commit shows version of commit or update.
 
-* Virtual Studio Code is used as # IDE throught this proejct.
+* Virtual Studio Code is used as IDE throught this proejct.
