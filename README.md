@@ -2,7 +2,7 @@
 
 # Unique Specs: 
 * This is a fully responsive website.
-* Multipage project which contains total of Four pages and every page is deisgned with mulltiple wrapper style.
+* Multi-page project which contains total of Four pages and every page is designed using mulltiple wrappers.
 * Every wrapper is dedicated for specific topic/section.
 * CSS3, HTML5, JavaScript and SCSS used for building this website.
 * Contact-form is a fully responsive and safe for visitor to contact me.
