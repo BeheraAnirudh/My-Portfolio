@@ -20,6 +20,4 @@
 
 * Virtual Studio Code is used as IDE throught this proejct.
 
-* Checkout free cool Templates @ https://html5up.net/
-* Checkout free Online server @ https://formsubmit.co/ for form submission as email to your inbox without any SMTP or backend code.
-* Checkout @ https://hpanel.hostinger.com/ for cheap domain.
+
