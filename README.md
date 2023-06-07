@@ -1,6 +1,6 @@
 # This is My Portfolio site.
 
-# Unique Specs: 
+# Key Specs: 
 * This is a fully responsive website.
 * Multi-page project which contains total of Four pages and every page is designed using mulltiple wrappers.
 * Every wrapper is dedicated for specific topic/section.
