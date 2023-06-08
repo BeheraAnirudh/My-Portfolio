@@ -13,8 +13,7 @@
 * Many proejcts will redirect to Github for project reference.
 * Cool Animations.
 
-# This respiratory contains my Personal Portfolio and personal data which are not for sharing purpose.
-# If you want to built your own Portfolio website then let's connect on, [anirudhabehera.site](https://anirudhabehera.site/)
+# Let's connect on, [anirudhabehera.site](https://anirudhabehera.site/)
 
 * V in commit shows version of commit or update.
 
