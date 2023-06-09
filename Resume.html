@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Anirudha Behera</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+					<div id="logo">
+
+						<h1><a href="home.html" style="font-family: 'Times New Roman', Times, serif;" style="font-size: 100px;">Anirudha Behera</a></h1>
+						<p>Very Large-Scale Integration Engineer</p>
+					</div>
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current" ><a href="home.html">Home</a></li>
+							<li><a href="project.html">Project</a></li>
+							<li><a href="experience.html">Experience</a></li>
+                            <li><a href="Resume.html">Resume</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+
+					</nav>
+					
+
+			</section>
+
+			<!-- Education -->
+			<section id="highlights" class="wrapper style3">
+				<div class="title">Resume</div>
+				<div class="container">
+					<div class="row aln-center">
+
+
+                        <style>
+                            #resume-container {
+                              position: relative;
+                              width: 900px;
+                              height: 100vh;
+                            }
+                          
+                            #resume-iframe {
+                              width: 100%;
+                              height: 100%;
+                              border: none;
+                            }
+                          
+                            #download-button {
+                              position: absolute;
+                              bottom: 10px;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              text-align: center;
+                            }
+                          
+                            #fullscreen-button {
+                              position: absolute;
+                              top: -10px;
+                              left: 52.5%;
+                              transform: translateX(-50%);
+                              padding: 4px 10px;
+                              font-size: 10px;
+                              background-color: #024249;
+                              color: #09ff00; 
+                            }
+                          
+                            .button.style1.small {
+                              font-size: 14px;
+                              padding: 2px 50px;
+                            }
+                          </style>
+                          
+                          <div id="resume-container">
+                            <iframe id="resume-iframe" src="doc/ANIRUDHA_BEHERA.pdf"></iframe>
+                          
+                            <button id="fullscreen-button" onclick="toggleFullScreen()">Fullscreen</button>
+                            <div>
+                              <ul class="actions special">
+                                <li>
+                                  <a href="doc/ANIRUDHA_BEHERA.pdf" class="button style1 small" target="_blank">Download Resume</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          
+                          <script>
+                            function toggleFullScreen() {
+                              var iframe = document.getElementById('resume-iframe');
+                          
+                              if (iframe.requestFullscreen) {
+                                iframe.requestFullscreen();
+                              } else if (iframe.mozRequestFullScreen) { // Firefox
+                                iframe.mozRequestFullScreen();
+                              } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                                iframe.webkitRequestFullscreen();
+                              } else if (iframe.msRequestFullscreen) { // IE/Edge
+                                iframe.msRequestFullscreen();
+                              }
+                            }
+                          </script>
+                          
+    <!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+
+</html> 
