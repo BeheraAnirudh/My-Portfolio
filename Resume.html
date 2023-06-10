@@ -44,78 +44,93 @@
 
 			</section>
 
-			<!-- Resume -->
+						<!-- Resume -->
 			<section id="highlights" class="wrapper style3">
 				<div class="title">Resume</div>
 
 
-<html lang="en">
-<head>
-    <style>
-        #resume-container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-        }
-      
-        #resume-iframe {
-            width: 100%;
-            height: 80vh;
-            border: none;
-        }
-      
-        #fullscreen-button {
-            position: absolute;
-            top: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 4px 10px;
-            font-size: 10px;
-            background-color: #024249;
-            color: #09ff00; 
-        }
-      
-        #download-button {
-            text-align: center;
-            margin-top: 20px;
-        }
-      
-        .button.style1.small {
-            font-size: 14px;
-            padding: 2px 30px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="row aln-center">
-            <div id="resume-container">
-                <iframe id="resume-iframe" src="doc/ANIRUDHA_BEHERA.pdf"></iframe>
-                <button id="fullscreen-button" onclick="toggleFullScreen()">Fullscreen</button>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Resume</title>
+            <style>
+                #resume-container {
+                    position: relative;
+                    width: 100%;
+                    height: 100vh;
+                    overflow: hidden;
+                }
+              
+                #resume-iframe {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                }
+              
+                #fullscreen-button {
+                    position: absolute;
+                    top: -10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    padding: 4px 10px;
+                    font-size: 10px;
+                    background-color: #024249;
+                    color: #09ff00; 
+                }
+              
+                #download-button {
+                    text-align: center;
+                    margin-top: 20px;
+                }
+              
+                .button.style1.small {
+                    font-size: 14px;
+                    padding: 2px 30px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="row aln-center">
+                    <div id="resume-container">
+                        <iframe id="resume-iframe" src="doc/ANIRUDHA_BEHERA.pdf"></iframe>
+                        <button id="fullscreen-button" onclick="toggleFullScreen()">Fullscreen</button>
+                    </div>
+                </div>
+                <div class="row aln-center">
+                    <div id="download-button">
+                        <a href="doc/ANIRUDHA_BEHERA.pdf" class="button style1 small" target="_blank">Download Resume</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row aln-center">
-            <div id="download-button">
-                <a href="doc/ANIRUDHA_BEHERA.pdf" class="button style1 small" target="_blank">Download Resume</a>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function toggleFullScreen() {
-            var iframe = document.getElementById('resume-iframe');
-
-            if (iframe.requestFullscreen) {
-                iframe.requestFullscreen();
-            } else if (iframe.mozRequestFullScreen) { // Firefox
-                iframe.mozRequestFullScreen();
-            } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
-                iframe.webkitRequestFullscreen();
-            } else if (iframe.msRequestFullscreen) { // IE/Edge
-                iframe.msRequestFullscreen();
-            }
-        }
-    </script>
-</body>
-</html>
+        
+            <script>
+                function toggleFullScreen() {
+                    var iframe = document.getElementById('resume-iframe');
+        
+                    if (iframe.requestFullscreen) {
+                        iframe.requestFullscreen();
+                    } else if (iframe.mozRequestFullScreen) { // Firefox
+                        iframe.mozRequestFullScreen();
+                    } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                        iframe.webkitRequestFullscreen();
+                    } else if (iframe.msRequestFullscreen) { // IE/Edge
+                        iframe.msRequestFullscreen();
+                    }
+                }
+            </script>
+            <!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/script.js"></script>
+        </body>
+        </html>
+        
