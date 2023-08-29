@@ -124,39 +124,51 @@
 													position: fixed;
 													bottom: 40px;
 													right: 30px;
-													background-color: rgb(255, 153, 0);
-													border: 2px solid #00ff08;
+													background-color: #e16a6a;
+													border: 2px solid #00ff11;
 													border-radius: 8px;
 													padding: 8px;
 													cursor: pointer;
+													display: none; /* Initially hide the button */
 												}
 										
 												#btt-icon {
 													font-size: 24px;
+													color:rgb(0, 255, 42);
 												}
-
+										
 											</style>
 
-										<!-- Add the Back to Top button -->
-										<div id="btt-box" onclick="scrollToTop()">
-											<i id="btt-icon" class="fa fa-angle-double-up btt-icon"></i>
-										</div>
-									
-										<script>
-											// JavaScript function to scroll to the top of the page
-											function scrollToTop() {
-												window.scrollTo({ top: 0, behavior: 'smooth' });
-											}
-
-											  // Show or hide the button based on scroll position
-                                                  window.addEventListener('scroll', function() {
-                                                  var bttBox = document.getElementById('btt-box');
-                                                    if (window.pageYOffset > 0) {
-                                                  bttBox.style.display = 'block'; // Show the button
-                                                  } else {
-                                                  bttBox.style.display = 'none'; // Hide the button
-                                                  }
-                                                 });
+											<!-- Back to Top button wrapped in a box -->
+											<div id="btt-box" onclick="scrollToTop()">
+												<i id="btt-icon" class="fa fa-angle-double-up btt-icon"></i>
+											</div>
+										
+											<script>
+												// JavaScript function to scroll to the top of the page
+												function scrollToTop() {
+													window.scrollTo({ top: 0, behavior: 'smooth' });
+												}
+										
+												// Show or hide the button based on scroll position
+												var scrolling = false;
+												window.addEventListener('scroll', function() {
+													if (!scrolling) {
+														scrolling = true;
+														setTimeout(function() {
+															var bttBox = document.getElementById('btt-box');
+															var scrollPosition = window.pageYOffset;
+										
+															if (scrollPosition > 0) {
+																bttBox.style.display = 'block'; // Show the button
+															} else {
+																bttBox.style.display = 'none'; // Hide the button
+															}
+										
+															scrolling = false;
+														}, 100);
+													}
+												});
 										</script>
     <!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
