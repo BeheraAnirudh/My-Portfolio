@@ -23,3 +23,4 @@
 
 * If you are a student, feel free to use this respiratory but not my personal details.
 
+* If you encounter any issues with the code, fill the contact form at (https://anirudhabehera.site/) with appropriate email and cause, i will get back to you asap.
