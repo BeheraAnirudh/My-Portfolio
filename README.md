@@ -13,6 +13,7 @@
 * Many proejcts will redirect to Github for project reference.
 * Resume section allows user to view my resume by sliding it or download it by clicking download button.
 * Resume page is optimized to provide all the features of a common PDF reader application like, marker, print, full screen view, rotate, zoom and much more.
+* At extreme right-bottom, double arrow button features one-go from bottom to top portion of the page. 
 
 # Let's connect on, [anirudhabehera.site](https://anirudhabehera.site/)
 
@@ -20,4 +21,5 @@
 
 * Virtual Studio Code is used as IDE throught this proejct.
 
+* If you are a student, feel free to use this respiratory but not my personal details.
 
