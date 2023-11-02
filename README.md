@@ -2,7 +2,7 @@
 
 # Key Specs: 
 * This is a fully responsive website.
-* Multi-page project which contains total of Four pages and every page is designed using mulltiple wrappers.
+* Multi-page project which contains total of five pages and every page is designed using mulltiple wrappers.
 * Every wrapper is dedicated for specific topic/section.
 * CSS3, HTML5, JavaScript and SCSS used for building this website.
 * Contact-form is a fully responsive and safe for visitor to contact me.
