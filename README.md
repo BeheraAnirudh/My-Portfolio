@@ -15,7 +15,7 @@
 * Resume page is optimized to provide all the features of a common PDF reader application like, marker, print, full screen view, rotate, zoom and much more.
 * At extreme right-bottom, double arrow button features one-go from bottom to top portion of the page. 
 
-# Let's connect on, [anirudhabehera.site](https://anirudhabehera.com/)
+# Let's connect on, [anirudhabehera.com](https://anirudhabehera.com/)
 
 * V in commit shows version of commit or update.
 
@@ -24,4 +24,5 @@
 * If you are a student, feel free to use this respiratory but not my personal details.
 
 * If you encounter any issues with the code, fill the contact form at (https://anirudhabehera.com/) with appropriate email and cause, i will get back to you asap.
+
 
